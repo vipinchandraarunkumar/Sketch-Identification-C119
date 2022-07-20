@@ -1,0 +1,38 @@
+body
+{
+    background-color:#FDDA0D;
+}
+
+h1
+{
+background-color: cornsilk;
+color: blue;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#show_sketch
+{
+float:right;
+}
+
+canvas
+{
+border-radius: 20px;
+border: 5px solid white;
+margin-top: 50px;
+animation-name:example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+from{box-shadow:1px 1px 38px grey;}
+to{box-shadow:1px 1px 38px white;}
+}
+
+p
+{
+padding-top: 10px;
+font-size: 25px;
+}
